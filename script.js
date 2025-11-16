@@ -1,58 +1,63 @@
-// Dummy data - replace with your real project info
-const projects = {
-    tableau: [
-      {
-        title: "Sales Dashboard",
-        description: "Interactive dashboard showing regional sales and trends.",
-        link: "https://public.tableau.com/views/SalesDashboard123"
-      },
-      {
-        title: "Customer Churn",
-        description: "Visual analysis of customer retention rates.",
-        link: "https://public.tableau.com/views/ChurnAnalysis"
+// Filter functionality
+const filterButtons = document.querySelectorAll('.filter-btn');
+const projectCards = document.querySelectorAll('.project-card');
+
+filterButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Update active button
+    filterButtons.forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+
+    const filter = button.getAttribute('data-filter');
+
+    // Filter projects
+    projectCards.forEach(card => {
+      if (filter === 'all') {
+        card.classList.remove('hidden');
+      } else {
+        const categories = card.getAttribute('data-category').split(' ');
+        if (categories.includes(filter)) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
       }
-    ],
-    excel: [
-      {
-        title: "Budget Tracker",
-        description: "Personal finance tracker with charts and pivot tables.",
-        link: "#"
-      }
-    ],
-    powerbi: [
-      {
-        title: "Retail Performance",
-        description: "Power BI dashboard tracking sales KPIs.",
-        link: "#"
-      }
-    ],
-    r: [
-      {
-        title: "Linear Regression in R",
-        description: "Analyzing housing prices using R and ggplot2.",
-        link: "#"
-      }
-    ]
-  };
-  
-  // Function to render cards
-  function renderProjects(sectionId, data) {
-    const container = document.getElementById(sectionId);
-    data.forEach(project => {
-      const card = document.createElement("div");
-      card.className = "project-card";
-      card.innerHTML = `
-        <h3>${project.title}</h3>
-        <p>${project.description}</p>
-        <a href="${project.link}" target="_blank">View Project</a>
-      `;
-      container.appendChild(card);
     });
+  });
+});
+
+// Smooth scrolling for navigation links with offset for sticky header
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      const headerOffset = 100; // Adjust this value based on your header height
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
+// Back to top button functionality
+const backToTop = document.getElementById('backToTop');
+
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 300) {
+    backToTop.style.display = 'block';
+  } else {
+    backToTop.style.display = 'none';
   }
-  
-  // Render each section
-  renderProjects("tableau-projects", projects.tableau);
-  renderProjects("excel-projects", projects.excel);
-  renderProjects("powerbi-projects", projects.powerbi);
-  renderProjects("r-projects-container", projects.r);
-  
+});
+
+backToTop.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
