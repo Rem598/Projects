@@ -514,9 +514,10 @@ footer p {
   }
 
   nav {
-   
-    align-self: flex-end;
-    align-items: center;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    
     gap: 0.5rem;
     margin-top: 1rem;
   }
@@ -524,6 +525,7 @@ footer p {
   nav a {
     padding: 0.4rem 0.8rem;
     font-size: 0.85rem;
+
   }
 
   .resume-section {
