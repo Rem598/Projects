@@ -1,1 +1,1 @@
-# Mentorship
+# Collection of projects
