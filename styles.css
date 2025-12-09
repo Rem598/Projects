@@ -666,3 +666,28 @@ footer p {
   opacity: 1;
   transform: translateY(0);
 }
+/* Faster animations on mobile */
+@media (max-width: 768px) {
+  .fade-in {
+    transform: translateY(20px);  /* Less movement */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;  /* Faster */
+  }
+  
+  /* Remove stagger delays on mobile */
+  .project-card.fade-in,
+  .project-card.fade-in:nth-child(2),
+  .project-card.fade-in:nth-child(3),
+  .project-card.fade-in:nth-child(4),
+  .project-card.fade-in:nth-child(5),
+  .project-card.fade-in:nth-child(6),
+  .project-card.fade-in:nth-child(7),
+  .project-card.fade-in:nth-child(8) {
+    transition-delay: 0s;  
+  }
+  
+  .info-section.fade-in,
+  .project-section.fade-in {
+    transform: translateY(20px);  /* Less movement */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;  /* Faster */
+  }
+}
