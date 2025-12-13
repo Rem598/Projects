@@ -117,7 +117,7 @@ Comprehensive dashboard with advanced DAX measures for sales, profit, and return
 
 **Machine Learning**
 - XGBoost, Random Forest
-- Facebook Prophet
+- Prophet
 - K-Means, Hierarchical Clustering
 
 **Automation**
