@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rehema Kemunto - Data Analyst & Automation Specialist</title>
+    <title>Rehema Kemunto - Analytics Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -26,17 +26,29 @@
       <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
+        <a href="#projects">Featured</a>
+        <a href="#all-projects">All Projects</a>
         <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <!-- Download Resume Section -->
+
+    <!-- Download Resume Section -->
     <div class="resume-section">
-      <a href="Rehema_Resume.pdf" download class="btn-download">
-        <i class="fas fa-download"></i> Download Resume
-      </a>
+      <div class="resume-actions">
+        <a href="Rehema_Resume.pdf" download class="btn-download">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rehema-kemunto"
+          target="_blank"
+          class="btn-linkedin"
+        >
+          <i class="fab fa-linkedin"></i> Connect on LinkedIn
+        </a>
+      </div>
     </div>
 
     <!-- Main Content -->
@@ -70,7 +82,7 @@
             <i class="fab fa-python"></i>
             <span>Python</span>
           </div>
-          <div class="skill-badge fade-in">
+          <div class="skill-badge">
             <i class="fab fa-r-project"></i>
             <span>R</span>
           </div>
@@ -113,9 +125,201 @@
         </div>
       </section>
 
-      <!-- Projects Section -->
-      <section id="projects" class="project-section ">
-        <h2>Featured Projects</h2>
+      <!-- Featured Projects Section -->
+      <section id="projects" class="project-section fade-in">
+        <h2>🌟 Featured Projects</h2>
+        <p
+          style="
+            text-align: center;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+          "
+        >
+          My top 5 projects showcasing business impact and technical depth
+        </p>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- 1. Retail Ops -->
+          <div class="project-card" data-category="bi automation analysis">
+            <div class="project-header">
+              <h3>Retail Operations & Finance Optimization</h3>
+              <div class="project-category">
+                <i class="fas fa-truck"></i>
+                MIS - End-to-End Workflow
+              </div>
+            </div>
+            <div class="project-body">
+              <p>
+                Comprehensive MIS project tracking $66.31M revenue. Built Power
+                BI dashboard, automated invoice alerts with Google Apps Script,
+                and identified root cause warehouses reducing fulfillment
+                delays.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">Google Apps Script</span>
+                <span class="tech-tag">Automation</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Rem598/Retail-Ops-Finance-Optimization"
+                  class="btn"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Polo Shirt -->
+          <div class="project-card" data-category="analysis bi">
+            <div class="project-header">
+              <h3>Polo Shirt Product Performance Analysis</h3>
+              <div class="project-category">
+                <i class="fas fa-tshirt"></i>
+                Root Cause Analysis
+              </div>
+            </div>
+            <div class="project-body">
+              <p>
+                Analyzed 5,000+ transactions to diagnose 48% return rate.
+                Identified Black variant quality issue and delivered strategic
+                recommendations projected to increase profit margin by 23%.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">Root Cause Analysis</span>
+                <span class="tech-tag">Excel</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Rem598/Polo-Shirt-Product-Performance-Analysis"
+                  class="btn"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Customer Churn -->
+          <div class="project-card" data-category="ml">
+            <div class="project-header">
+              <h3>Customer Churn Prediction System</h3>
+              <div class="project-category">
+                <i class="fas fa-users-slash"></i>
+                Machine Learning - Classification
+              </div>
+            </div>
+            <div class="project-body">
+              <p>
+                End-to-end ML pipeline predicting telecom customer churn with
+                85%+ accuracy using SMOTE and ensemble models. Delivers churn
+                probabilities and actionable retention insights.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">XGBoost</span>
+                <span class="tech-tag">Random Forest</span>
+                <span class="tech-tag">SMOTE</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Rem598/FUTURE_ML_02"
+                  class="btn"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Social Media Ads -->
+          <div class="project-card" data-category="bi analysis">
+            <div class="project-header">
+              <h3>Social Media Ad Performance Dashboard</h3>
+              <div class="project-category">
+                <i class="fas fa-bullhorn"></i>
+                Marketing Analytics
+              </div>
+            </div>
+            <div class="project-body">
+              <p>
+                Power BI dashboard analyzing campaigns across Facebook and
+                Instagram. Tracked 340K impressions and $101K revenue with 333%
+                ROI. Identified optimal ad scheduling times.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">DAX</span>
+                <span class="tech-tag">Marketing Analytics</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Rem598/Social-Media-Ad-Performance-Dashboard"
+                  class="btn"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. E-Commerce Superstore -->
+          <div class="project-card" data-category="bi">
+            <div class="project-header">
+              <h3>E-Commerce Superstore BI Dashboard</h3>
+              <div class="project-category">
+                <i class="fas fa-store"></i>
+                Business Intelligence
+              </div>
+            </div>
+            <div class="project-body">
+              <p>
+                Full-cycle BI analysis from Power Query to strategic
+                recommendations. Advanced DAX measures for Net Sales and Profit
+                Margin. Delivered Q4 campaign and regional optimization
+                strategies.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">DAX</span>
+                <span class="tech-tag">Power Query</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Rem598/E-commerce-Superstore-BI-Dashboard"
+                  class="btn"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- All Projects Section -->
+      <section id="all-projects" class="project-section fade-in">
+        <h2>📂 Complete Project Archive</h2>
+        <p
+          style="
+            text-align: center;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+          "
+        >
+          All 14 projects organized by category - showing my journey and
+          progression
+        </p>
 
         <!-- Filter Buttons -->
         <div class="filter-buttons">
@@ -139,80 +343,10 @@
           </button>
         </div>
 
-        <!-- Projects Grid -->
+        <!-- All Projects Grid -->
         <div class="projects-grid">
-
-          <!-- Retail Ops & Finance Optimization -->
-          <div class="project-card" data-category="bi automation analysis">
-            <div class="project-header">
-              <h3>Retail Operations & Finance Optimization</h3>
-              <div class="project-category">
-                <i class="fas fa-truck"></i>
-                MIS - End-to-End Workflow
-              </div>
-            </div>
-            <div class="project-body">
-              <p>
-                Comprehensive MIS project optimizing retail supply chain and
-                financial workflows. Built Power BI dashboard tracking $66.31M
-                revenue, automated invoice alerts with Google Apps Script, and
-                delivered strategic recommendations reducing fulfillment delays
-                by identifying root cause warehouses.
-              </p>
-              <div class="tech-stack">
-                <span class="tech-tag">SQL</span>
-                <span class="tech-tag">Power BI</span>
-                <span class="tech-tag">Google Apps Script</span>
-                <span class="tech-tag">Automation</span>
-                <span class="tech-tag">MIS</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://github.com/Rem598/Retail-Ops-Finance-Optimization"
-                  class="btn"
-                  target="_blank"
-                >
-                  <i class="fab fa-github"></i> View on GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- Customer Segmentation (Tableau) -->
-          <div class="project-card" data-category="bi ml">
-            <div class="project-header">
-              <h3>Customer Segmentation Dashboard</h3>
-              <div class="project-category">
-                <i class="fas fa-users-cog"></i>
-                Business Intelligence - Segmentation
-              </div>
-            </div>
-            <div class="project-body">
-              <p>
-                Tableau dashboard using behavioral data to create distinct
-                customer segments (High-Value, At-Risk) enabling targeted
-                marketing campaigns and personalized retention strategies.
-              </p>
-              <div class="tech-stack">
-                <span class="tech-tag">Tableau</span>
-                <span class="tech-tag">Customer Segmentation</span>
-                <span class="tech-tag">Behavioral Analysis</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://github.com/Rem598/Customer-Segmentation-Marketing-Tableau"
-                  class="btn"
-                  target="_blank"
-                >
-                  <i class="fab fa-github"></i> View on GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          
-
-          <!-- Sales Forecasting with Prophet -->
-          <div class="project-card " data-category="ml">
+          <!-- Sales Forecasting -->
+          <div class="project-card" data-category="ml">
             <div class="project-header">
               <h3>Sales Forecasting with Prophet</h3>
               <div class="project-category">
@@ -222,16 +356,14 @@
             </div>
             <div class="project-body">
               <p>
-                Built end-to-end forecasting pipeline using Facebook Prophet to
-                predict 365 days of sales. Incorporated inventory and price as
-                regressors. Created Power BI dashboard showing actual vs.
-                forecasted sales with seasonal trends.
+                365-day sales forecasting pipeline using Facebook Prophet with
+                inventory and price regressors. Improved forecast accuracy by
+                30%.
               </p>
               <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">Prophet</span>
                 <span class="tech-tag">Time Series</span>
-                <span class="tech-tag">Power BI</span>
               </div>
               <div class="project-links">
                 <a
@@ -245,31 +377,28 @@
             </div>
           </div>
 
-          <!-- Customer Churn Prediction -->
-          <div class="project-card " data-category="ml">
+          <!-- Customer Segmentation -->
+          <div class="project-card" data-category="bi ml">
             <div class="project-header">
-              <h3>Customer Churn Prediction System</h3>
+              <h3>Customer Segmentation Dashboard</h3>
               <div class="project-category">
-                <i class="fas fa-users-slash"></i>
-                Machine Learning - Classification
+                <i class="fas fa-users-cog"></i>
+                Business Intelligence
               </div>
             </div>
             <div class="project-body">
               <p>
-                End-to-end ML pipeline predicting telecom customer churn using
-                SMOTE for class imbalance and ensemble models (Random Forest,
-                XGBoost). Delivers churn probabilities and actionable retention
-                insights.
+                Tableau dashboard using behavioral data to create distinct
+                customer segments enabling targeted marketing campaigns and
+                retention strategies.
               </p>
               <div class="tech-stack">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">XGBoost</span>
-                <span class="tech-tag">Random Forest</span>
-                <span class="tech-tag">SMOTE</span>
+                <span class="tech-tag">Tableau</span>
+                <span class="tech-tag">Customer Segmentation</span>
               </div>
               <div class="project-links">
                 <a
-                  href="https://github.com/Rem598/FUTURE_ML_02"
+                  href="https://github.com/Rem598/Customer-Segmentation-Marketing-Tableau"
                   class="btn"
                   target="_blank"
                 >
@@ -278,10 +407,9 @@
               </div>
             </div>
           </div>
-          
 
-          <!-- AI Chat Data Analysis Workflow -->
-          <div class="project-card " data-category="automation ml">
+          <!-- AI Chat Workflow -->
+          <div class="project-card" data-category="automation ml">
             <div class="project-header">
               <h3>AI Chat Data Analysis Workflow</h3>
               <div class="project-category">
@@ -292,13 +420,12 @@
             <div class="project-body">
               <p>
                 Intelligent n8n workflow automating data analysis through
-                conversational AI. Users query datasets via chat interface;
-                system processes, analyzes, and returns insights automatically.
+                conversational AI. System processes queries and returns insights
+                automatically.
               </p>
               <div class="tech-stack">
                 <span class="tech-tag">n8n</span>
                 <span class="tech-tag">AI Integration</span>
-                <span class="tech-tag">Workflow Automation</span>
               </div>
               <div class="project-links">
                 <a
@@ -312,32 +439,29 @@
             </div>
           </div>
 
-          <!-- Social Media Ad Performance Dashboard -->
-          <div class="project-card " data-category="bi analysis">
+          <!-- Coffee Shop Survey -->
+          <div class="project-card" data-category="stats">
             <div class="project-header">
-              <h3>Social Media Ad Performance Dashboard</h3>
+              <h3>Coffee Shop Survey Analysis</h3>
               <div class="project-category">
-                <i class="fas fa-bullhorn"></i>
-                Marketing Analytics
+                <i class="fas fa-coffee"></i>
+                Statistical Analysis
               </div>
             </div>
             <div class="project-body">
               <p>
-                Power BI dashboard analyzing social media advertising campaigns
-                across Facebook and Instagram. Tracked 340K impressions, 40K
-                clicks, and $101K revenue with 333% ROI. Identified optimal ad
-                scheduling times and high-performing demographics (35-44 age
-                group).
+                Comprehensive statistical analysis using chi-square tests,
+                ANOVA, and logistic regression to model customer satisfaction
+                and loyalty drivers.
               </p>
               <div class="tech-stack">
-                <span class="tech-tag">Power BI</span>
-                <span class="tech-tag">DAX</span>
-                <span class="tech-tag">Marketing Analytics</span>
-                <span class="tech-tag">KPI Tracking</span>
+                <span class="tech-tag">R</span>
+                <span class="tech-tag">Logistic Regression</span>
+                <span class="tech-tag">ANOVA</span>
               </div>
               <div class="project-links">
                 <a
-                  href="https://github.com/Rem598/Social-Media-Ad-Performance-Dashboard"
+                  href="https://github.com/Rem598/Coffee-Shop-Customer-Behavior-Analysis-R"
                   class="btn"
                   target="_blank"
                 >
@@ -347,8 +471,8 @@
             </div>
           </div>
 
-          <!-- API Data Analysis Workflow -->
-          <div class="project-card " data-category="automation">
+          <!-- API Workflow -->
+          <div class="project-card" data-category="automation">
             <div class="project-header">
               <h3>API Data Analysis Workflow</h3>
               <div class="project-category">
@@ -358,14 +482,13 @@
             </div>
             <div class="project-body">
               <p>
-                Automated n8n workflow fetching data from APIs, transforming it,
-                and performing analysis. Eliminates manual data collection and
-                ensures real-time insights from external sources.
+                Automated n8n workflow fetching data from APIs and performing
+                analysis. Eliminates manual collection ensuring real-time
+                insights.
               </p>
               <div class="tech-stack">
                 <span class="tech-tag">n8n</span>
                 <span class="tech-tag">API Integration</span>
-                <span class="tech-tag">ETL</span>
               </div>
               <div class="project-links">
                 <a
@@ -380,7 +503,7 @@
           </div>
 
           <!-- Cluster Analysis -->
-          <div class="project-card " data-category="ml">
+          <div class="project-card" data-category="ml">
             <div class="project-header">
               <h3>Cluster Analysis on Health Data</h3>
               <div class="project-category">
@@ -391,13 +514,12 @@
             <div class="project-body">
               <p>
                 Applied k-means and hierarchical clustering to segment health
-                data patterns. Optimal cluster analysis revealed distinct
-                customer segments for targeting.
+                data patterns revealing distinct customer segments for
+                targeting.
               </p>
               <div class="tech-stack">
                 <span class="tech-tag">R</span>
                 <span class="tech-tag">K-Means</span>
-                <span class="tech-tag">Hierarchical Clustering</span>
               </div>
               <div class="project-links">
                 <a
@@ -411,42 +533,8 @@
             </div>
           </div>
 
-          <!-- Coffee Shop Analysis -->
-          <div class="project-card " data-category="stats">
-            <div class="project-header">
-              <h3>Coffee Shop Survey Analysis</h3>
-              <div class="project-category">
-                <i class="fas fa-coffee"></i>
-                Statistical Analysis
-              </div>
-            </div>
-            <div class="project-body">
-              <p>
-                Comprehensive statistical analysis using chi-square tests,
-                ANOVA, and logistic regression to model customer satisfaction
-                and recommendation likelihood. Identified key drivers of
-                customer loyalty.
-              </p>
-              <div class="tech-stack">
-                <span class="tech-tag">R</span>
-                <span class="tech-tag">Logistic Regression</span>
-                <span class="tech-tag">ANOVA</span>
-                <span class="tech-tag">Chi-Square</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://github.com/Rem598/Coffee-Shop-Customer-Behavior-Analysis-R"
-                  class="btn"
-                  target="_blank"
-                >
-                  <i class="fab fa-github"></i> View on GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Online Sales Analysis -->
-          <div class="project-card " data-category="analysis">
+          <!-- Online Sales -->
+          <div class="project-card" data-category="analysis">
             <div class="project-header">
               <h3>Online Sales Analysis</h3>
               <div class="project-category">
@@ -456,14 +544,12 @@
             </div>
             <div class="project-body">
               <p>
-                Deep-dive SQL and Excel analysis uncovering regional trends,
-                product performance, and seasonal patterns. Delivered actionable
-                insights on revenue drivers and customer behavior.
+                Deep-dive SQL and Excel analysis uncovering regional trends and
+                seasonal patterns. Delivered insights on revenue drivers.
               </p>
               <div class="tech-stack">
                 <span class="tech-tag">SQL</span>
                 <span class="tech-tag">Excel</span>
-                <span class="tech-tag">Data Visualization</span>
               </div>
               <div class="project-links">
                 <a
@@ -477,8 +563,8 @@
             </div>
           </div>
 
-          <!-- Café Sales Dashboard -->
-          <div class="project-card " data-category="bi">
+          <!-- Café Sales -->
+          <div class="project-card" data-category="bi">
             <div class="project-header">
               <h3>Café Sales Dashboard</h3>
               <div class="project-category">
@@ -489,13 +575,11 @@
             <div class="project-body">
               <p>
                 Power BI dashboard analyzing 10K transactions revealing product
-                performance and payment trends. Supports strategic pricing and
-                inventory decisions.
+                performance and payment trends supporting pricing decisions.
               </p>
               <div class="tech-stack">
                 <span class="tech-tag">Power BI</span>
                 <span class="tech-tag">DAX</span>
-                <span class="tech-tag">Data Modeling</span>
               </div>
               <div class="project-links">
                 <a
@@ -509,8 +593,8 @@
             </div>
           </div>
 
-          <!-- Customer Retention Dashboard -->
-          <div class="project-card " data-category="bi">
+          <!-- Customer Retention -->
+          <div class="project-card" data-category="bi">
             <div class="project-header">
               <h3>Customer Retention Dashboard</h3>
               <div class="project-category">
@@ -527,7 +611,6 @@
               <div class="tech-stack">
                 <span class="tech-tag">Power BI</span>
                 <span class="tech-tag">Customer Analytics</span>
-                <span class="tech-tag">Churn Analysis</span>
               </div>
               <div class="project-links">
                 <a
@@ -540,44 +623,11 @@
               </div>
             </div>
           </div>
-          <!-- E-Commerce Superstore Dashboard -->
-          <div class="project-card " data-category="bi">
-            <div class="project-header">
-              <h3>E-Commerce Superstore BI Dashboard</h3>
-              <div class="project-category">
-                <i class="fas fa-store"></i>
-                Business Intelligence
-              </div>
-            </div>
-            <div class="project-body">
-              <p>
-                Comprehensive Power BI dashboard analyzing Superstore sales,
-                profit, and returns with advanced DAX measures. Delivered
-                strategic recommendations for Q4 marketing campaigns and
-                regional cost optimization.
-              </p>
-              <div class="tech-stack">
-                <span class="tech-tag">Power BI</span>
-                <span class="tech-tag">DAX</span>
-                <span class="tech-tag">Power Query</span>
-                <span class="tech-tag">Data Modeling</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://github.com/Rem598/E-commerce-Superstore-BI-Dashboard"
-                  class="btn"
-                  target="_blank"
-                >
-                  <i class="fab fa-github"></i> View on GitHub
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
       <!-- Certifications Section -->
-      <section id="certifications" class="info-section ">
+      <section id="certifications" class="info-section fade-in">
         <h2>Certifications</h2>
         <div class="certifications-grid">
           <div class="cert-card">
@@ -590,7 +640,6 @@
               <p class="cert-date">October 2025</p>
             </div>
           </div>
-
           <div class="cert-card">
             <div class="cert-icon">
               <i class="fas fa-certificate"></i>
@@ -601,7 +650,6 @@
               <p class="cert-date">November 2025</p>
             </div>
           </div>
-
           <div class="cert-card">
             <div class="cert-icon">
               <i class="fas fa-certificate"></i>
@@ -612,7 +660,6 @@
               <p class="cert-date">August 2025</p>
             </div>
           </div>
-
           <div class="cert-card">
             <div class="cert-icon">
               <i class="fas fa-certificate"></i>
@@ -623,7 +670,6 @@
               <p class="cert-date">May 2025</p>
             </div>
           </div>
-
           <div class="cert-card">
             <div class="cert-icon">
               <i class="fas fa-certificate"></i>
@@ -634,7 +680,6 @@
               <p class="cert-date">September 2025</p>
             </div>
           </div>
-
           <div class="cert-card">
             <div class="cert-icon">
               <i class="fas fa-certificate"></i>
