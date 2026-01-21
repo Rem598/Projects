@@ -169,9 +169,6 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 
 
 
-**Last Updated:** December 2025
-
-*This portfolio is actively maintained. New projects added regularly.*
 
 ---
 
