@@ -55,12 +55,11 @@ Analyzed 5,000+ transactions to diagnose 48% product return rate. Used statistic
 
 ---
 
-### 3️⃣ [Customer Churn Prediction System](https://github.com/Rem598/FUTURE_ML_02)
-**Impact:** 85%+ accuracy | Identified top 5 churn drivers
+### 🤖 [Customer Churn Prediction System](https://github.com/Rem598/FUTURE_ML_02)
+Built ML pipeline predicting telecom customer churn with **85%+ accuracy**. Used SMOTE for class balancing and ensemble models (XGBoost, Random Forest) to deliver retention insights.
 
-ML pipeline using SMOTE, XGBoost, and Random Forest for telecom customer retention strategy.
-
-**Tech:** Python, XGBoost, Random Forest, SMOTE, ML
+**Tech:** Python • XGBoost • Random Forest • Machine Learning  
+**Impact:** Identified top 5 churn drivers, enabled targeted retention
 
 ---
 
