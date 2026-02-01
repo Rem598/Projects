@@ -28,23 +28,30 @@ Welcome to my analytics portfolio! I transform messy data into actionable busine
 
 ---
 
-## 🌟 Featured Projects
+## ⭐ Featured Projects
 
-### 1️⃣ [Retail Operations & Finance Optimization](https://github.com/Rem598/Retail-Ops-Finance-Optimization)
-**Impact:** Tracked $66.31M revenue | Automated invoice alerts | Identified fulfillment bottlenecks
+### 📊 [Weather Impact on Demand: Hypothesis Testing](https://github.com/Rem598/Forecasting-Demand-by-Weather)
+Used **Welch's t-test** on 17,000+ hours of data to quantify how rain affects service demand. Delivered data-backed staffing recommendations that save **£23K/month** by optimizing workforce scheduling.
 
-MIS project combining SQL analysis, Power BI dashboards, and Google Apps Script automation for supply chain optimization.
-
-**Tech:** SQL, Power BI, Google Apps Script, MIS
+**Tech:** Python • Hypothesis Testing • Statistical Analysis  
+**Impact:** 38.7% demand reduction quantified, dynamic scheduling enabled
 
 ---
 
-### 2️⃣ [Polo Shirt Product Performance Analysis](https://github.com/Rem598/Polo-Shirt-Product-Performance-Analysis)
-**Impact:** Diagnosed 48% return rate | Projected 23% profit increase
+### 💼 [Retail Operations & Finance Optimization](https://github.com/Rem598/Retail-Ops-Finance-Optimization)
+Built Power BI dashboard tracking **$66M revenue** across 4 regions. Automated invoice alerts with Google Apps Script and identified root cause warehouses reducing fulfillment delays.
 
-End-to-end product analysis identifying quality issues in specific SKUs with data-backed strategic recommendations.
+**Tech:** SQL • Power BI • Google Apps Script • Automation  
+**Impact:** Improved data accuracy, reduced manual reporting time
 
-**Tech:** SQL, Power BI, Root Cause Analysis, Excel
+---
+
+### 🔍 [Product Quality Root Cause Analysis](https://github.com/Rem598/Polo-Shirt-Product-Performance-Analysis)
+Analyzed 5,000+ transactions to diagnose 48% product return rate. Used statistical validation to isolate quality issues by variant and recommended fixes projected to increase profit by 23%.
+
+**Tech:** SQL • Power BI • Root Cause Analysis  
+**Impact:** Identified defective product variant, clear action plan delivered
+
 
 ---
 
@@ -54,24 +61,6 @@ End-to-end product analysis identifying quality issues in specific SKUs with dat
 ML pipeline using SMOTE, XGBoost, and Random Forest for telecom customer retention strategy.
 
 **Tech:** Python, XGBoost, Random Forest, SMOTE, ML
-
----
-
-### 4️⃣ [Social Media Ad Performance Dashboard](https://github.com/Rem598/Social-Media-Ad-Performance-Dashboard)
-**Impact:** 333% ROI | 340K impressions analyzed | Optimal ad timing identified
-
-Marketing analytics dashboard tracking campaign performance across Facebook and Instagram.
-
-**Tech:** Power BI, DAX, Marketing Analytics, KPI Tracking
-
----
-
-### 5️⃣ [E-Commerce Superstore BI Dashboard](https://github.com/Rem598/E-commerce-Superstore-BI-Dashboard)
-**Impact:** Full BI cycle | Strategic Q4 recommendations | Regional cost optimization
-
-Comprehensive dashboard with advanced DAX measures for sales, profit, and return analysis.
-
-**Tech:** Power BI, DAX, Power Query, Data Modeling
 
 ---
 
