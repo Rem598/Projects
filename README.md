@@ -156,10 +156,3 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 ---
 
 
-
-
----
-
-<p align="center">
-  <b>Built with passion for data and problem-solving</b>
-</p>
