@@ -1,4 +1,4 @@
-#  Rehema Kemunto - Portfolio
+# Rehema Kemunto - Portfolio
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
@@ -6,122 +6,103 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 
-
-
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-00b8d4?style=for-the-badge)](https://rem598.github.io/Projects)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rehema-kemunto)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Rem598)
 
-> **Data Analyst | Machine Learning | Business Intelligence | Automation**
+> **Data Analyst | Statistician | Business Intelligence**
 
-Welcome to my analytics portfolio! I transform messy data into actionable business insights using Python, R, SQL, and BI tools. This repository serves as a central hub linking to all my projects.
+Welcome to my portfolio! I specialize in extracting actionable insights from complex datasets through statistical analysis and business intelligence. My work spans rigorous hypothesis testing, root cause analysis for operational problems, and building interactive dashboards that communicate data clearly.
 
 ---
 
 ## 🎯 What I Do
 
-- **Build ML models** that predict customer churn with 85%+ accuracy
-- **Create BI dashboards** tracking millions in revenue and identifying profit optimization opportunities
-- **Automate workflows** using n8n and Python, saving hours of manual work
-- **Conduct statistical analysis** using R, SPSS, and Stata for data-driven decision making
-- **Solve business problems** with root cause analysis and strategic recommendations
+- **Statistical Analysis**: Hypothesis testing (Welch's t-tests, Mann-Whitney U, Bayesian inference), experimental design, and rigorous research methodology
+- **Business Intelligence**: Interactive dashboards in Power BI and Tableau that track revenue, identify profit opportunities, and support strategic decisions
+- **Root Cause Analysis**: Systematic investigation of operational problems with data-backed recommendations
+- **Data-Driven Strategy**: Translating complex technical findings into clear, actionable business recommendations
+- **End-to-End Analysis**: From data cleaning and SQL queries to statistical modeling and executive-ready visualizations
 
 ---
 
-## ⭐ Featured Projects
+## Featured Projects
 
-### 📊 [Weather Impact on Demand: Hypothesis Testing](https://github.com/Rem598/Forecasting-Demand-by-Weather)
-Used **Welch's t-test** on 17,000+ hours of data to quantify how rain affects service demand. Delivered data-backed staffing recommendations that save **£23K/month** by optimizing workforce scheduling.
+### 📊 [Weather Impact Analysis: Hypothesis Testing](https://github.com/Rem598/Forecasting-Demand-by-Weather)
+Conducted **Welch's two-sample t-test** on 17,400+ hourly observations to quantify weather impact on public transit demand. Validated statistical assumptions and delivered data-backed staffing recommendations achieving **£23K/month** cost savings through evidence-based dynamic scheduling.
 
-**Tech:** Python • Hypothesis Testing • Statistical Analysis  
-**Impact:** 38.7% demand reduction quantified, dynamic scheduling enabled
+**Tech:** Python • Hypothesis Testing • Statistical Validation • Operations Research  
+**Impact:** 38.7% demand impact quantified, dynamic scheduling optimization enabled
+
+---
+
+### 💰 [Left-Digit Bias Audit: Pricing Psychology](https://github.com/Rem598/Left_digit_bias_audit)
+Analyzed **185,000+ e-commerce transactions** testing whether $X.99 pricing increases sales. Applied **Mann-Whitney U test** after confirming non-normal distribution via Shapiro-Wilk. Found significant effect for phones (+5.16% lift, p<0.001) but no effect for laptops, demonstrating category-specific pricing psychology.
+
+**Tech:** Python • Mann-Whitney U Test • Non-Parametric Statistics • Behavioral Economics  
+**Impact:** Clear evidence for category-specific pricing strategies, actionable pricing recommendations
 
 ---
 
 ### 💼 [Retail Operations & Finance Optimization](https://github.com/Rem598/Retail-Ops-Finance-Optimization)
-Built Power BI dashboard tracking **$66M revenue** across 4 regions. Automated invoice alerts with Google Apps Script and identified root cause warehouses reducing fulfillment delays.
+Built Power BI dashboard tracking **$66.31M revenue** across 4 regions. Automated invoice alerts with Google Apps Script and conducted root cause analysis identifying specific warehouses causing fulfillment delays.
 
-**Tech:** SQL • Power BI • Google Apps Script • Automation  
-**Impact:** Improved data accuracy, reduced manual reporting time
-
----
-
-### 🔍 [Product Quality Root Cause Analysis](https://github.com/Rem598/Polo-Shirt-Product-Performance-Analysis)
-Analyzed 5,000+ transactions to diagnose 48% product return rate. Used statistical validation to isolate quality issues by variant and recommended fixes projected to increase profit by 23%.
-
-**Tech:** SQL • Power BI • Root Cause Analysis  
-**Impact:** Identified defective product variant, clear action plan delivered
-
+**Tech:** SQL • Power BI • Google Apps Script • Root Cause Analysis  
+**Impact:** Reduced manual work by 60%, improved data validation accuracy
 
 ---
 
-### 🤖 [Customer Churn Prediction System](https://github.com/Rem598/FUTURE_ML_02)
-Built ML pipeline predicting telecom customer churn with **85%+ accuracy**. Used SMOTE for class balancing and ensemble models (XGBoost, Random Forest) to deliver retention insights.
+### 🧪 [Bayesian A/B Testing: E-Commerce Optimization](https://github.com/Rem598/A-B-testing-choice-overload)
+Designed **Beta-Binomial Bayesian model** testing product density impact on conversion rates. Conducted sensitivity analysis across multiple priors comparing Bayesian vs Frequentist approaches. Demonstrated **98% probability of superiority** and advantages of probabilistic decision-making for real-time experiments.
 
-**Tech:** Python • XGBoost • Random Forest • Machine Learning  
-**Impact:** Identified top 5 churn drivers, enabled targeted retention
+**Tech:** Python • Bayesian Statistics • A/B Testing • Monte Carlo Simulation  
+**Impact:** Rigorous experimental design framework, clear probabilistic recommendations
 
 ---
 
-## 📂 All Projects by Category
+### 🔍 [Polo Shirt Product Performance Analysis](https://github.com/Rem598/Polo-Shirt-Product-Performance-Analysis)
+Analyzed 5,000+ transactions using statistical validation to diagnose 48% return rate. Isolated defective product variant (Black color) through systematic data segmentation and delivered evidence-based recommendations projected to increase profit margin by **23%**.
 
-### 🤖 Machine Learning
-- [Sales Forecasting with Prophet](https://github.com/Rem598/FUTURE_ML_01) - Time series forecasting (30% accuracy improvement)
-- [Customer Churn Prediction](https://github.com/Rem598/FUTURE_ML_02) - Classification model (85%+ accuracy)
-- [Cluster Analysis on Health Data](https://github.com/Rem598/Cluster-analysis) - K-means & hierarchical clustering
-
-### 📈 Business Intelligence
-- [Retail Ops & Finance Optimization](https://github.com/Rem598/Retail-Ops-Finance-Optimization) - MIS project ($66M tracked)
-- [E-Commerce Superstore Dashboard](https://github.com/Rem598/E-commerce-Superstore-BI-Dashboard) - Full BI cycle
-- [Social Media Ad Performance](https://github.com/Rem598/Social-Media-Ad-Performance-Dashboard) - Marketing analytics (333% ROI)
-- [Customer Segmentation Dashboard](https://github.com/Rem598/Customer-Segmentation-Marketing-Tableau) - Tableau segmentation
-- [Café Sales Dashboard](https://github.com/Rem598/Cafe-Sales-Performance-Dashboard-PowerBI) - 10K transactions analyzed
-- [Customer Retention Dashboard](https://github.com/Rem598/Customer-Churn-Dashboard-BI) - Churn signal identification
-
-### 📊 Data Analysis
-- [Polo Shirt Product Performance](https://github.com/Rem598/Polo-Shirt-Product-Performance-Analysis) - Root cause analysis (48% return rate)
-- [Online Sales Analysis](https://github.com/Rem598/Online-Sales-EDA-SQL-Excel) - SQL & Excel deep dive
-
-### 📉 Statistical Analysis
-- [Coffee Shop Survey Analysis](https://github.com/Rem598/Coffee-Shop-Customer-Behavior-Analysis-R) - ANOVA, logistic regression, chi-square tests
-
-### ⚡ Automation
-- [AI Chat Data Analysis Workflow](https://github.com/Rem598/n8n-ai-chat-data-analysis-workflow) - Conversational AI automation
-- [API Data Analysis Workflow](https://github.com/Rem598/n8n-API-data-analysis-workflow) - Real-time data processing
+**Tech:** SQL • Power BI • Root Cause Analysis • Statistical Validation  
+**Impact:** Clear identification of quality issue, strategic action plan delivered
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Programming & Analysis**
-- Python (Pandas, NumPy, Scikit-learn)
-- R (Statistical modeling)
-- SQL (MySQL, PostgreSQL)
+**Statistical Analysis**
+- Hypothesis Testing (t-tests, ANOVA, chi-square)
+- Experimental Design
+- Bayesian Inference
+- Regression Analysis (linear, logistic)
+- Non-Parametric Methods
 
-**Business Intelligence**
-- Power BI (DAX, Data Modeling)
-- Tableau
-- Excel (Advanced)
+**Programming & Data Analysis**
+- **R** (tidyverse, statistical modeling)
+- **Python** (pandas, scipy, statsmodels, matplotlib, seaborn)
+- **SQL** ( data extraction & transformation)
 
-**Machine Learning**
-- XGBoost, Random Forest
-- Prophet
-- K-Means, Hierarchical Clustering
+**Business Intelligence & Visualization**
+- **Power BI** (DAX, data modeling, advanced visualizations)
+- **Tableau** (customer segmentation, marketing analytics)
+- **Looker Studio** (trend analysis, interactive dashboards)
+- **Excel** (formulas, pivot tables)
 
-**Automation**
-- n8n (Workflow automation)
-- Google Apps Script
-- API integration
-
-**Statistical Tools**
-- SPSS, STATA, PSPP
+**Additional Tools**
+- **SPSS** (statistical analysis)
+- **Google Apps Script** (automation)
+- **Git/GitHub** (version control)
 
 ---
 
-## 🎓 Certifications
+## 🎓 Education & Certifications
 
+**Bachelor of Science in Mathematics**  
+University of Nairobi | Specialization in Statistics 
+
+**Professional Certifications:**
 - **J.P. Morgan** - Quantitative Research Job Simulation (Oct 2025)
-- **BCG** - Introduction to Data for Decision Makers (Nov 2025)
+- **BCG** - Data for Decision Makers (Nov 2025)
 - **Deloitte Australia** - Data Analytics Job Simulation (Aug 2025)
 - **Accenture North America** - Data Analytics & Visualization (May 2025)
 - **DataCamp** - Data Manipulation with Pandas (Sep 2025)
@@ -133,26 +114,27 @@ Built ML pipeline predicting telecom customer churn with **85%+ accuracy**. Used
 
 ## 📫 Let's Connect
 
-I'm always open to discussing new projects, creative ideas, or opportunities to bring data-driven solutions to life.
+I'm always open to discussing new projects, data challenges, or opportunities to bring analytical rigor to business problems.
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/rehema-kemunto)
 - 🌐 [Portfolio Website](https://rem598.github.io/Projects)
 
+---
+
+## 🚀 What Sets Me Apart
+
+**Statistical Rigor** - Not just dashboards, but hypothesis testing, p-values, confidence intervals, and Bayesian inference
+
+**Business Translation** - Converting statistical findings into clear strategic recommendations that non-technical stakeholders understand
+
+**Quantified Impact** - Every project includes concrete metrics (£23K saved, 23% profit increase, 185K transactions analyzed)
+
+**Full-Stack Analytics** - From SQL data extraction to statistical analysis to executive-ready visualizations
+
+**Real Problems** - Actual business challenges with strategic recommendations, not just tutorial projects
+
+**Diverse Methods** - Comfortable with both frequentist and Bayesian approaches, parametric and non-parametric methods
 
 ---
 
-## 🚀 What Makes Me Different
-
-**Business Impact First** - Every project includes clear metrics (revenue tracked, accuracy achieved, efficiency gained)
-
-**Full-Stack Analyst** - From SQL queries to ML models to automated workflows to executive dashboards
-
-**Real Problems** - Not tutorial projects - actual business challenges with strategic recommendations
-
-**Diverse Domains** - Retail, e-commerce, marketing, healthcare, finance
-
-**Modern Tools** - Beyond Excel and SQL - automation (n8n), advanced BI (DAX), ML (XGBoost)
-
----
-
-
+*Portfolio last updated: March 2026*
