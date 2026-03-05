@@ -123,7 +123,7 @@ Applied k-means and hierarchical clustering to segment cardiovascular health dat
 - **Excel** (advanced formulas, pivot tables)
 
 **Additional Tools**
-- **SPSS** and **Stata**(statistical analysis)
+- **SPSS** and **Stata** (statistical analysis)
 - **Google Apps Script** (automation)
 - **Git/GitHub** (version control)
 
