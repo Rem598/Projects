@@ -89,7 +89,7 @@ Analyzed 5,000+ transactions using statistical validation to diagnose 48% return
 - **Excel** (formulas, pivot tables)
 
 **Additional Tools**
-- **SPSS** (statistical analysis)
+- **SPSS** and **Stata**(statistical analysis)
 - **Google Apps Script** (automation)
 - **Git/GitHub** (version control)
 
