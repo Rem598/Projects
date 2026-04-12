@@ -1,147 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rehema Kemunto - Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rehema Kemunto — Research Analyst</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-      <div class="header-left">
-        <h1>Rehema Kemunto</h1>
-        <p class="subtitle">Data Analysis | Statistics | Research</p>
+
+  <!-- HEADER -->
+  <header id="site-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <span class="brand-name">RK</span>
       </div>
-      <nav>
+      <nav class="main-nav">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
       </nav>
-    </header>
-
-    <div class="resume-section">
-      <div class="resume-actions">
-        <a href="https://www.linkedin.com/in/rehema-kemunto" target="_blank" class="btn-linkedin">
-          <i class="fab fa-linkedin"></i> Connect on LinkedIn
-        </a>
-      </div>
     </div>
+  </header>
 
-    <main>
-      <section id="about" class="info-section fade-in">
-        <h2>About Me</h2>
-        <p>
-          I specialize in extracting actionable insights from complex datasets through statistical analysis and data visualization. My work spans rigorous hypothesis testing, root cause analysis for operational problems, and building interactive tools that communicate data clearly. I've analyzed datasets ranging from 5,000 survey responses to 185,000+ e-commerce transactions, consistently translating technical findings into strategic recommendations.
-        </p>
-        <div style="text-align: center; margin-top: 2rem">
-          <a href="#projects" class="btn-cta">View My Work <i class="fas fa-arrow-down"></i></a>
+  <main>
+
+    <!-- ABOUT / PROFILE SECTION -->
+    <section id="about" class="section-about fade-in">
+      <div class="about-container">
+        <div class="profile-card">
+          <div class="profile-avatar">
+            <span class="avatar-initials">RK</span>
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="profile-info">
+            <h1 class="profile-name">Rehema Kemunto</h1>
+            <p class="profile-title">Research Analyst &nbsp;·&nbsp; Behavioral Data Analyst &nbsp;·&nbsp; Decision Scientist</p>
+            <div class="profile-links">
+              <a href="https://www.linkedin.com/in/rehema-kemunto" target="_blank" class="profile-link">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+              <a href="https://github.com/Rem598" target="_blank" class="profile-link">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
         </div>
-      </section>
 
-      <section id="skills" class="info-section fade-in">
-        <h2>Technical Skills</h2>
+        <div class="about-body">
+          <p class="about-lead">
+            I don't build dashboards for their own sake. I start with a question that seems simple — <em>does X.99 pricing work? why is this product returning at 48%?</em> — then I find the rigorous statistical answer and make it actionable.
+          </p>
+          <p class="about-secondary">
+            My work spans behavioral economics, operational research, and product analytics. I've tested pricing psychology across 185,000+ transactions, quantified weather's impact on transit demand to save £23K/month, and shipped a full Django web app. Every project follows the same arc: a specific question, a method that fits the data, a finding that surprises, an impact that's concrete.
+          </p>
+          <a href="#projects" class="btn-cta">See the work <i class="fas fa-arrow-down"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section-info fade-in">
+      <div class="section-inner">
+        <h2 class="section-heading">Technical Skills</h2>
         <div class="skills-grid">
-          <div class="skill-badge">
-            <i class="fas fa-chart-line"></i>
-            <span>Hypothesis Testing</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-flask"></i>
-            <span>Experimental Design</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-balance-scale"></i>
-            <span>Bayesian Inference</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-chart-area"></i>
-            <span>Regression Analysis</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fab fa-r-project"></i>
-            <span>R</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fab fa-python"></i>
-            <span>Python</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-database"></i>
-            <span>SQL</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-chart-bar"></i>
-            <span>Power BI</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-chart-line"></i>
-            <span>Tableau</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-file-excel"></i>
-            <span>Excel</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-chart-pie"></i>
-            <span>Looker Studio</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-calculator"></i>
-            <span>SPSS</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-search"></i>
-            <span>Root Cause Analysis</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-broom"></i>
-            <span>Data Cleaning</span>
-          </div>
-          <div class="skill-badge">
-            <i class="fas fa-tachometer-alt"></i>
-            <span>Dashboard Development</span>
-          </div>
+          <div class="skill-badge"><i class="fas fa-chart-line"></i><span>Hypothesis Testing</span></div>
+          <div class="skill-badge"><i class="fas fa-flask"></i><span>Experimental Design</span></div>
+          <div class="skill-badge"><i class="fas fa-balance-scale"></i><span>Bayesian Inference</span></div>
+          <div class="skill-badge"><i class="fas fa-chart-area"></i><span>Regression Analysis</span></div>
+          <div class="skill-badge"><i class="fab fa-r-project"></i><span>R</span></div>
+          <div class="skill-badge"><i class="fab fa-python"></i><span>Python</span></div>
+          <div class="skill-badge"><i class="fas fa-database"></i><span>SQL</span></div>
+          <div class="skill-badge"><i class="fas fa-chart-bar"></i><span>Power BI</span></div>
+          <div class="skill-badge"><i class="fas fa-chart-line"></i><span>Tableau</span></div>
+          <div class="skill-badge"><i class="fas fa-file-excel"></i><span>Excel</span></div>
+          <div class="skill-badge"><i class="fas fa-chart-pie"></i><span>Looker Studio</span></div>
+          <div class="skill-badge"><i class="fas fa-calculator"></i><span>SPSS</span></div>
+          <div class="skill-badge"><i class="fas fa-search"></i><span>Root Cause Analysis</span></div>
+          <div class="skill-badge"><i class="fas fa-broom"></i><span>Data Cleaning</span></div>
+          <div class="skill-badge"><i class="fas fa-code"></i><span>Django</span></div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="projects" class="project-section fade-in">
-        <h2>Projects</h2>
-        <p style="text-align: center; color: var(--text-color); margin-bottom: 3rem;">
-          A journey through data questions I've explored and answered
-        </p>
+    <!-- PROJECTS TIMELINE -->
+    <section id="projects" class="section-projects fade-in">
+      <div class="section-inner">
+        <h2 class="section-heading">Projects</h2>
+        <p class="section-sub">A record of questions I asked, methods I used, and what I actually found.</p>
 
         <div class="timeline">
 
           <!-- Project 1 -->
           <div class="timeline-item">
-            <div class="timeline-marker"></div>
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
             <div class="timeline-content">
-              <h3>Left-Digit Bias Audit: Pricing Psychology</h3>
-              <p class="question">Does X.99 pricing actually work? I analyzed 185,000+ transactions to find out.</p>
-              
+              <h3 class="project-title">Left-Digit Bias Audit: Pricing Psychology</h3>
+              <p class="project-question">Does X.99 pricing actually work? I analyzed 185,000+ transactions to find out.</p>
               <div class="finding-box">
-                <p><strong>Finding:</strong> It works for some products, not others. Phones showed +5.16% lift with X.99 pricing (p<0.001). Laptops? No effect. Pricing psychology is category-specific, not universal.</p>
+                <p><strong class="finding-label">Finding:</strong> It works for some products, not others. Phones showed +5.16% lift with X.99 pricing (p&lt;0.001). Laptops? No effect. Pricing psychology is category-specific, not universal.</p>
               </div>
-
-              <p class="impact"><strong>Impact:</strong> Clear evidence for when to use charm pricing vs standard pricing. Not all price points are created equal.</p>
-
+              <p class="project-impact"><strong>Impact:</strong> Clear evidence for when to use charm pricing vs standard pricing. Not all price points are created equal.</p>
               <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">Mann-Whitney U Test</span>
                 <span class="tech-tag">Non-Parametric Statistics</span>
                 <span class="tech-tag">Behavioral Economics</span>
               </div>
-
               <a href="https://github.com/Rem598/Left_digit_bias_audit" class="btn-github" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
               </a>
@@ -150,24 +120,22 @@
 
           <!-- Project 2 -->
           <div class="timeline-item">
-            <div class="timeline-marker"></div>
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
             <div class="timeline-content">
-              <h3>Weather Impact Analysis: Hypothesis Testing</h3>
-              <p class="question">How much does weather actually affect public transit demand?</p>
-              
+              <h3 class="project-title">Weather Impact Analysis: Hypothesis Testing</h3>
+              <p class="project-question">How much does weather actually affect public transit demand?</p>
               <div class="finding-box">
-                <p><strong>Finding:</strong> Weather accounts for 38.7% of demand variance. Rainy days see predictable demand drops; sunny days see spikes.</p>
+                <p><strong class="finding-label">Finding:</strong> Weather accounts for 38.7% of demand variance. Rainy days see predictable demand drops; sunny days see spikes.</p>
               </div>
-
-              <p class="impact"><strong>Impact:</strong> Data-backed staffing recommendations that saved £23K/month through dynamic scheduling. Rigorous hypothesis testing leads to real business value.</p>
-
+              <p class="project-impact"><strong>Impact:</strong> Data-backed staffing recommendations that saved £23K/month through dynamic scheduling. Rigorous hypothesis testing leads to real business value.</p>
               <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">Welch's t-test</span>
                 <span class="tech-tag">Hypothesis Testing</span>
                 <span class="tech-tag">Operations Research</span>
               </div>
-
               <a href="https://github.com/Rem598/Forecasting-Demand-by-Weather" class="btn-github" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
               </a>
@@ -176,24 +144,22 @@
 
           <!-- Project 3 -->
           <div class="timeline-item">
-            <div class="timeline-marker"></div>
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
             <div class="timeline-content">
-              <h3>Polo Shirt Product Performance Analysis</h3>
-              <p class="question">Why is one product returning at 48%? That's not normal.</p>
-              
+              <h3 class="project-title">Polo Shirt Product Performance Analysis</h3>
+              <p class="project-question">Why is one product returning at 48%? That's not normal.</p>
               <div class="finding-box">
-                <p><strong>Finding:</strong> The Black variant had a manufacturing defect. Once isolated, the pattern was clear: one color, one quality issue, massive returns.</p>
+                <p><strong class="finding-label">Finding:</strong> The Black variant had a manufacturing defect. Once isolated, the pattern was clear: one color, one quality issue, massive returns.</p>
               </div>
-
-              <p class="impact"><strong>Impact:</strong> Identified the exact problem and root cause. Projected to increase profit margin by 23% once resolved.</p>
-
+              <p class="project-impact"><strong>Impact:</strong> Identified the exact problem and root cause. Projected to increase profit margin by 23% once resolved.</p>
               <div class="tech-stack">
                 <span class="tech-tag">SQL</span>
                 <span class="tech-tag">Power BI</span>
                 <span class="tech-tag">Root Cause Analysis</span>
                 <span class="tech-tag">Statistical Validation</span>
               </div>
-
               <a href="https://github.com/Rem598/Polo-Shirt-Product-Performance-Analysis" class="btn-github" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
               </a>
@@ -202,24 +168,22 @@
 
           <!-- Project 4 -->
           <div class="timeline-item">
-            <div class="timeline-marker"></div>
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
             <div class="timeline-content">
-              <h3>Bayesian A/B Testing: E-Commerce Optimization</h3>
-              <p class="question">Does reducing product density improve conversions? And how confident can I be in the answer?</p>
-              
+              <h3 class="project-title">Bayesian A/B Testing: E-Commerce Optimization</h3>
+              <p class="project-question">Does reducing product density improve conversions? And how confident can I be in the answer?</p>
               <div class="finding-box">
-                <p><strong>Finding:</strong> 98% probability that density reduction improves conversion rates. Bayesian methods give you probability of outcomes. For real-time decisions, probability of outcomes is more useful than p-values.</p>
+                <p><strong class="finding-label">Finding:</strong> 98% probability that density reduction improves conversion rates. Bayesian methods give you probability of outcomes. For real-time decisions, that's more useful than a p-value.</p>
               </div>
-
-              <p class="impact"><strong>Impact:</strong> A framework for probabilistic decision-making in experiments. Not just "is it significant?" but "what's the probability this is the right move?"</p>
-
+              <p class="project-impact"><strong>Impact:</strong> A framework for probabilistic decision-making in experiments. Not just "is it significant?" but "what's the probability this is the right move?"</p>
               <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">Bayesian Statistics</span>
                 <span class="tech-tag">Beta-Binomial Model</span>
                 <span class="tech-tag">Monte Carlo Simulation</span>
               </div>
-
               <a href="https://github.com/Rem598/A-B-testing-choice-overload" class="btn-github" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
               </a>
@@ -228,24 +192,22 @@
 
           <!-- Project 5 -->
           <div class="timeline-item">
-            <div class="timeline-marker"></div>
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
             <div class="timeline-content">
-              <h3>Nobel Prize Trends Analysis (1901-2025)</h3>
-              <p class="question">How has collaboration in science changed over time? Are researchers working alone or together?</p>
-              
+              <h3 class="project-title">Nobel Prize Trends Analysis (1901–2025)</h3>
+              <p class="project-question">How has collaboration in science changed over time? Are researchers working alone or together?</p>
               <div class="finding-box">
-                <p><strong>Finding:</strong> Gender gap is closing (6.6% historically to 19.4% in 2020s). Solo science is extinct (78% individual prizes early 1900s to 35% today). Average laureate age is increasing.</p>
+                <p><strong class="finding-label">Finding:</strong> Gender gap is closing (6.6% historically to 19.4% in the 2020s). Solo science is effectively extinct — 78% individual prizes in the early 1900s vs 35% today. Average laureate age is rising.</p>
               </div>
-
-              <p class="impact"><strong>Impact:</strong> Data-driven insights into structural shifts in how science is organized. A narrative about collaboration and diversity.</p>
-
+              <p class="project-impact"><strong>Impact:</strong> Data-driven insights into structural shifts in how science is organized. A narrative about collaboration and diversity told through 124 years of data.</p>
               <div class="tech-stack">
                 <span class="tech-tag">R</span>
                 <span class="tech-tag">Looker Studio</span>
                 <span class="tech-tag">Data Analysis</span>
                 <span class="tech-tag">Trend Analysis</span>
               </div>
-
               <a href="https://github.com/Rem598/Nobel-Prize-Trends" class="btn-github" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
               </a>
@@ -254,17 +216,16 @@
 
           <!-- Project 6 -->
           <div class="timeline-item">
-            <div class="timeline-marker"></div>
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
             <div class="timeline-content">
-              <h3>Emotion Map: Community-Powered Emotional Self-Awareness</h3>
-              <p class="question">How do you help people understand their emotional patterns?</p>
-              
+              <h3 class="project-title">Emotion Map: Community-Powered Emotional Self-Awareness</h3>
+              <p class="project-question">How do you help people understand their emotional patterns?</p>
               <div class="finding-box">
-                <p><strong>Finding:</strong> Users can visualize emotional heatmaps (when are you most anxious?), discover correlations (does work stress spike on Mondays?), and test interventions with community feedback.</p>
+                <p><strong class="finding-label">Finding:</strong> Users can visualize emotional heatmaps (when are you most anxious?), discover correlations (does work stress spike on Mondays?), and test interventions rated by the community for effectiveness.</p>
               </div>
-
-              <p class="impact"><strong>Impact:</strong> Shipped a working product that combines visualization with community wisdom.</p>
-
+              <p class="project-impact"><strong>Impact:</strong> Shipped a working product that combines behavioral visualization with community wisdom. Analysis at the product level, not just the spreadsheet.</p>
               <div class="tech-stack">
                 <span class="tech-tag">Django</span>
                 <span class="tech-tag">Python</span>
@@ -272,7 +233,6 @@
                 <span class="tech-tag">Database Design</span>
                 <span class="tech-tag">UX</span>
               </div>
-
               <a href="https://github.com/Rem598/Emotion_Map" class="btn-github" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
               </a>
@@ -281,80 +241,71 @@
 
           <!-- Project 7 -->
           <div class="timeline-item">
-            <div class="timeline-marker"></div>
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
             <div class="timeline-content">
-              <h3>Retail Operations & Finance Optimization</h3>
-              <p class="question">Where are the bottlenecks in this $66.31M operation? Why are fulfillment times inconsistent?</p>
-              
+              <h3 class="project-title">Retail Operations &amp; Finance Optimization</h3>
+              <p class="project-question">Where are the bottlenecks in this $66.31M operation? Why are fulfillment times inconsistent?</p>
               <div class="finding-box">
-                <p><strong>Finding:</strong> Specific warehouses were causing 40% of delays. The issue was operational. Root cause: warehouse-level process variation.</p>
+                <p><strong class="finding-label">Finding:</strong> Specific warehouses were causing 40% of delays. The issue wasn't systemic — it was warehouse-level process variation with a traceable root cause.</p>
               </div>
-
-              <p class="impact"><strong>Impact:</strong> Reduced manual data work by 60%. More importantly, turned "why are things slow?" into "warehouse X is the problem, here's what to fix."</p>
-
+              <p class="project-impact"><strong>Impact:</strong> Reduced manual data work by 60%. Turned "why are things slow?" into "warehouse X is the problem, here's what to fix."</p>
               <div class="tech-stack">
                 <span class="tech-tag">SQL</span>
                 <span class="tech-tag">Power BI</span>
                 <span class="tech-tag">Google Apps Script</span>
                 <span class="tech-tag">Root Cause Analysis</span>
               </div>
-
               <a href="https://github.com/Rem598/Retail-Ops-Finance-Optimization" class="btn-github" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
               </a>
             </div>
           </div>
 
-        </div>
-      </section>
+        </div><!-- end .timeline -->
+      </div>
+    </section>
 
-      <section id="certifications" class="info-section fade-in">
-        <h2>Certifications</h2>
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section-info fade-in">
+      <div class="section-inner">
+        <h2 class="section-heading">Certifications</h2>
         <div class="certifications-grid">
           <div class="cert-card">
-            <div class="cert-icon">
-              <i class="fas fa-certificate"></i>
-            </div>
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
             <div class="cert-content">
-              <h3>J.P. Morgan - Quantitative Research</h3>
+              <h3>J.P. Morgan — Quantitative Research</h3>
               <p class="cert-issuer">Forage</p>
               <p class="cert-date">October 2025</p>
             </div>
           </div>
           <div class="cert-card">
-            <div class="cert-icon">
-              <i class="fas fa-certificate"></i>
-            </div>
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
             <div class="cert-content">
-              <h3>BCG - Data for Decision Makers</h3>
+              <h3>BCG — Data for Decision Makers</h3>
               <p class="cert-issuer">Forage</p>
               <p class="cert-date">November 2025</p>
             </div>
           </div>
           <div class="cert-card">
-            <div class="cert-icon">
-              <i class="fas fa-certificate"></i>
-            </div>
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
             <div class="cert-content">
-              <h3>Deloitte - Data Analytics</h3>
+              <h3>Deloitte — Data Analytics</h3>
               <p class="cert-issuer">Forage</p>
               <p class="cert-date">August 2025</p>
             </div>
           </div>
           <div class="cert-card">
-            <div class="cert-icon">
-              <i class="fas fa-certificate"></i>
-            </div>
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
             <div class="cert-content">
-              <h3>Accenture - Data Analytics & Visualization</h3>
+              <h3>Accenture — Data Analytics &amp; Visualization</h3>
               <p class="cert-issuer">Forage</p>
               <p class="cert-date">May 2025</p>
             </div>
           </div>
           <div class="cert-card">
-            <div class="cert-icon">
-              <i class="fas fa-certificate"></i>
-            </div>
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
             <div class="cert-content">
               <h3>Data Manipulation with Pandas</h3>
               <p class="cert-issuer">DataCamp</p>
@@ -362,9 +313,7 @@
             </div>
           </div>
           <div class="cert-card">
-            <div class="cert-icon">
-              <i class="fas fa-certificate"></i>
-            </div>
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
             <div class="cert-content">
               <h3>Understanding Machine Learning</h3>
               <p class="cert-issuer">DataCamp</p>
@@ -372,14 +321,18 @@
             </div>
           </div>
         </div>
-      </section>
+        <p class="certs-footer">
+          <a href="https://www.linkedin.com/in/rehema-kemunto" target="_blank">View all certifications on LinkedIn <i class="fas fa-external-link-alt"></i></a>
+        </p>
+      </div>
+    </section>
 
-      <section id="contact" class="info-section fade-in">
+    <!-- CONTACT -->
+    <section id="contact" class="section-info section-contact fade-in">
+      <div class="section-inner">
         <div class="contact-content">
-          <h2>Let's Connect</h2>
-          <p>
-            I'm always open to discussing new projects, creative ideas, or opportunities to bring data-driven solutions to life.
-          </p>
+          <h2 class="section-heading">Let's Connect</h2>
+          <p class="contact-body">I'm open to discussing new projects, data challenges, or roles where analytical rigor actually matters.</p>
           <div class="social-links">
             <a href="https://www.linkedin.com/in/rehema-kemunto" target="_blank" class="social-link" aria-label="LinkedIn">
               <i class="fab fa-linkedin"></i>
@@ -389,15 +342,19 @@
             </a>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <button id="backToTop" title="Back to top" aria-label="Back to top">↑</button>
+  </main>
 
-    <footer>
-      <p>&copy; 2026 Rehema. All rights reserved.</p>
-    </footer>
+  <button id="backToTop" title="Back to top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
-    <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2026 Rehema Kemunto. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
