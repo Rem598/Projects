@@ -513,7 +513,46 @@ h1, h2, h3 { font-family: var(--font-heading); line-height: 1.25; }
   margin-bottom: 0.3rem;
 }
 
-.cert-issuer {
+/* ── EDUCATION CARD ─────────────────────────────────────────── */
+.education-card {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  background: var(--bg-card);
+  border: 1px solid var(--accent);
+  box-shadow: 0 0 20px var(--accent-glow);
+  border-radius: var(--radius);
+  padding: 1.8rem 2rem;
+  margin-top: 2rem;
+  max-width: 420px;
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+.education-card:hover {
+  box-shadow: 0 0 32px var(--accent-glow);
+  transform: translateY(-3px);
+}
+
+.edu-icon {
+  font-size: 2rem;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.edu-degree {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+}
+
+.edu-school {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+
   font-size: 0.8rem;
   color: var(--accent);
   font-weight: 600;
