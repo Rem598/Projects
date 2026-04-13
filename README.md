@@ -152,17 +152,6 @@ I'm always open to discussing new projects, data challenges, or opportunities to
 
 ---
 
-## 🚀 What Sets Me Apart
-
-**Statistical Rigor** - Not just dashboards, but hypothesis testing, p-values, confidence intervals, and Bayesian inference
-
-**Business Translation** - Converting statistical findings into clear strategic recommendations that non-technical stakeholders understand
-
-**Quantified Impact** - Every project includes concrete metrics (£23K saved, 23% profit increase, 185K transactions analyzed)
-
-**Full-Stack Analytics** - From SQL data extraction to statistical analysis to executive-ready visualizations
-
-**Real Problems** - Actual business challenges with strategic recommendations, not just tutorial projects
 
 **Diverse Methods** - Comfortable with both frequentist and Bayesian approaches, parametric and non-parametric methods
 
