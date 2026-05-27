@@ -10,7 +10,6 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <header id="site-header">
     <div class="header-inner">
       <div class="header-brand">
@@ -28,7 +27,6 @@
 
   <main>
 
-    <!-- ABOUT -->
     <section id="about" class="section-about fade-in">
       <div class="about-container">
         <div class="profile-card">
@@ -49,7 +47,6 @@
             </div>
           </div>
         </div>
-
         <div class="about-body">
           <p class="about-secondary">
             My work spans behavioral economics, operational research, and product analytics. I've tested pricing psychology across 185,000+ transactions and quantified weather's impact on transit demand to save £23K/month.
@@ -59,7 +56,6 @@
       </div>
     </section>
 
-    <!-- SKILLS -->
     <section id="skills" class="section-info fade-in">
       <div class="section-inner">
         <h2 class="section-heading">Technical Skills</h2>
@@ -78,7 +74,6 @@
       </div>
     </section>
 
-    <!-- PROJECTS TIMELINE -->
     <section id="projects" class="section-projects fade-in">
       <div class="section-inner">
         <h2 class="section-heading">Projects</h2>
@@ -86,29 +81,7 @@
 
         <div class="timeline">
 
-          <!-- Project 1: Left-Digit Bias -->
-          <div class="timeline-item">
-            <div class="timeline-marker"><div class="marker-dot"></div></div>
-            <div class="timeline-content">
-              <h3 class="project-title">Left-Digit Bias Audit: Pricing Psychology</h3>
-              <p class="project-question">Does X.99 pricing actually work? I analyzed 185,000+ transactions to find out.</p>
-              <div class="finding-box">
-                <p><strong class="finding-label">Finding:</strong> It works for some products, not others. Phones showed a +5.16% sales lift with X.99 pricing (p&lt;0.001). Laptops showed no effect at all. Pricing psychology is category-specific, not a universal lever.</p>
-              </div>
-              <p class="project-impact"><strong>Impact:</strong> Retailers applying charm pricing uniformly are leaving money on the table in some categories and wasting it in others. This analysis tells you exactly which is which.</p>
-              <div class="tech-stack">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Mann-Whitney U Test</span>
-                <span class="tech-tag">Non-Parametric Statistics</span>
-                <span class="tech-tag">Behavioral Economics</span>
-              </div>
-              <a href="https://github.com/Rem598/Left_digit_bias_audit" class="btn-github" target="_blank">
-                <i class="fab fa-github"></i> View on GitHub
-              </a>
-            </div>
-          </div>
-
-          <!-- Project 2: Beyond the Treadmill -->
+          <!-- Project 1: Beyond the Treadmill -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot"></div></div>
             <div class="timeline-content">
@@ -125,6 +98,29 @@
                 <span class="tech-tag">Hypothesis Testing</span>
               </div>
               <a href="https://github.com/Rem598/Exercise-and-Mental-Health" class="btn-github" target="_blank">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Breast Cancer PCA -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot"></div></div>
+            <div class="timeline-content">
+              <h3 class="project-title">Feature Redundancy in Breast Cancer Diagnostics</h3>
+              <p class="project-question">Clinical labs record 30 features per tumour sample. Are all 30 doing independent work, or is the dataset carrying a lot of redundant weight?</p>
+              <div class="finding-box">
+                <p><strong class="finding-label">Finding:</strong> Radius, perimeter, and area are near-perfectly correlated (r &ge; 0.98) because they are geometrically linked. Measuring all three is statistically measuring one thing three times. PCA confirmed the dataset compresses to 10 components at 95% variance explained. Welch's t-tests ranked all 30 features by diagnostic power: <em>worst concave points</em> led by a wide margin (t = 29.12), while fractal dimension and symmetry failed Bonferroni correction entirely.</p>
+              </div>
+              <p class="project-impact"><strong>Impact:</strong> Redundancy in clinical measurement inflates perceived complexity and can obscure which features actually drive diagnosis. This analysis identifies exactly which features earn their place and which don't.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PCA</span>
+                <span class="tech-tag">Welch's t-test</span>
+                <span class="tech-tag">Bonferroni Correction</span>
+                <span class="tech-tag">Dimensionality Reduction</span>
+              </div>
+              <a href="https://github.com/Rem598/Wisconsin-Breast-Cancer-Diagnostic" class="btn-github" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
               </a>
             </div>
@@ -152,7 +148,29 @@
             </div>
           </div>
 
-          <!-- Project 4: Bayesian A/B -->
+          <!-- Project 4: Left-Digit Bias -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="marker-dot"></div></div>
+            <div class="timeline-content">
+              <h3 class="project-title">Left-Digit Bias Audit: Pricing Psychology</h3>
+              <p class="project-question">Does X.99 pricing actually work? I analyzed 185,000+ transactions to find out.</p>
+              <div class="finding-box">
+                <p><strong class="finding-label">Finding:</strong> It works for some products, not others. Phones showed a +5.16% sales lift with X.99 pricing (p&lt;0.001). Laptops showed no effect at all. Pricing psychology is category-specific, not a universal lever.</p>
+              </div>
+              <p class="project-impact"><strong>Impact:</strong> Retailers applying charm pricing uniformly are leaving money on the table in some categories and wasting it in others. This analysis tells you exactly which is which.</p>
+              <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Mann-Whitney U Test</span>
+                <span class="tech-tag">Non-Parametric Statistics</span>
+                <span class="tech-tag">Behavioral Economics</span>
+              </div>
+              <a href="https://github.com/Rem598/Left_digit_bias_audit" class="btn-github" target="_blank">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 5: Bayesian A/B -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot"></div></div>
             <div class="timeline-content">
@@ -174,7 +192,7 @@
             </div>
           </div>
 
-          <!-- Project 5: Polo Shirt -->
+          <!-- Project 6: Polo Shirt -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot"></div></div>
             <div class="timeline-content">
@@ -196,7 +214,7 @@
             </div>
           </div>
 
-          <!-- Project 6: Retail Ops -->
+          <!-- Project 7: Retail Ops -->
           <div class="timeline-item">
             <div class="timeline-marker"><div class="marker-dot"></div></div>
             <div class="timeline-content">
@@ -218,33 +236,10 @@
             </div>
           </div>
 
-          <!-- Project 7: Emotion Map -->
-          <!-- <div class="timeline-item">
-            <div class="timeline-marker"><div class="marker-dot"></div></div>
-            <div class="timeline-content">
-              <h3 class="project-title">Emotion Map: Real-Time Intervention Scoring Engine</h3>
-              <p class="project-question">How do you quantify the effectiveness of behavioral micro-interventions using live community feedback?</p>
-              <div class="finding-box">
-                <p><strong class="finding-label">Finding:</strong> Built a data collection pipeline using Django that processes emotional states into a weighted algorithm. The backend utilizes ORM queries to aggregate time-series data into correlation matrices and heatmaps, isolating specific emotional volatility windows (e.g., Monday 9 AM anxiety spikes tied to specific tags).</p>
-              </div>
-              <p class="project-impact"><strong>Impact:</strong> Demonstrated end-to-end data engineering capabilities. I designed the relational database, wrote the aggregation queries, built the dynamic scoring logic and shipped the visualization layer.</p>
-              <div class="tech-stack">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Django ORM</span>
-                <span class="tech-tag">Data Architecture</span>
-                <span class="tech-tag">Algorithmic Scoring</span>
-              </div>
-              <a href="https://github.com/Rem598/Emotion_Map" class="btn-github" target="_blank">
-                <i class="fab fa-github"></i> View on GitHub
-              </a>
-            </div>
-          </div>-->
-
         </div><!-- end .timeline -->
       </div>
     </section>
 
-    <!-- EDUCATION -->
     <section id="education" class="section-info fade-in">
       <div class="section-inner">
         <h2 class="section-heading">Education</h2>
@@ -258,7 +253,6 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
     <section id="contact" class="section-info section-contact fade-in">
       <div class="section-inner">
         <div class="contact-content">
